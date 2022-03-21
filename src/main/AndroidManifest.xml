@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.week4hw_2">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mywek42_ver4">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"  tools:ignore="ScopedStorage"/>
 
     <application
         android:allowBackup="true"
@@ -13,10 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Week4hw2">
-        <activity
-            android:name=".GetCSVActivity"
-            android:exported="false" />
+        android:theme="@style/Theme.MyWek42_ver4">
         <activity
             android:name=".MainActivity"
             android:exported="true">

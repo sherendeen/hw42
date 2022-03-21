@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">week4hw-2</string>
-    <string name="txtResult">textResult</string>
+    <string name="app_name">My wek42_ver4</string>
+    <string name="back_button">BACK</string>
+    <string name="show_button_public">SHOW</string>
+    <string name="text_view_saved_data">...</string>
+    <string name="view_button">VIEW</string>
+    <string name="enter_a_number_1_through_100">Enter a number (1 through 99)</string>
+    <string name="get_contact">Get Contact</string>
 </resources>
